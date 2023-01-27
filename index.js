@@ -4,7 +4,8 @@ const translate = require('@iamtraction/google-translate');
 const speech = require('./messages');
 const { Client, GatewayIntentBits } = require('discord.js');
 const prefix = "!" // Definimos el prefijo
-
+const  keepAlive  =  require ( './server.js' ) ;
+const  express  =  require ( "express" ) ( ) . get ( "/" ,  ( req ,  res )  =>  res . send ( "Bot en Linea!" ) ) . escucha ( 3000 ) ;
 
 const client = new Client({
 
@@ -167,5 +168,5 @@ client.on("messageCreate", msg => {
 
 })
 
-const TOKEN ="MTA2NjQ4Nzk0OTk3MTE3MzQ2Nw.GleNl2.7z4pAPj7s9Ej2STkDyIuJMcowVqtIbjyS5G-80"
+const TOKEN =""
 client.login(TOKEN) // Aqui pondremos el token de nuestro bot
