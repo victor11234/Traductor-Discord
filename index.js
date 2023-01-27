@@ -85,6 +85,7 @@ try {
           let lang_to = language.filter(ele => ele.abrv===separateFlag)[0].abrv;
           let text = separateMenssage.slice(0).join(' ');
           msgDiscord = "";
+          flag ="";
           translate(text, {to: lang_to})
               .then(res =>  message.channel.send(res.text))
               .catch(err => message.channel.send(speech.BOT_TRANSLATION_ERROR + err));
