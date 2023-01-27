@@ -34,7 +34,7 @@ client.on("messageCreate", message => {
    return;
 
 
-   let msgDiscord = mensaje.content;
+   let msgDiscord = message.content;
    
    
    
