@@ -4,8 +4,8 @@ const translate = require('@iamtraction/google-translate');
 const speech = require('./messages');
 const { Client, GatewayIntentBits } = require('discord.js');
 const prefix = "!" // Definimos el prefijo
-const  keepAlive  =  require ( './server.js' ) ;
-const  express  =  require ( "express" ) ( ) . get ( "/" ,  ( req ,  res )  =>  res . send ( "Bot en Linea!" ) ) . escucha ( 3000 ) ;
+const keepAlive = require('./server.js');
+const express = require("express")().get("/", (req,res)=>res.send("Bot en Linea!")).listen(3000)
 
 const client = new Client({
 
