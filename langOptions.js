@@ -1,0 +1,35 @@
+//https://cloud.google.com/translate/docs/languages
+module.exports = lng = [
+   
+    {"name": "english", "abrv": "en",},
+    {"name": "finnish","abrv": "fi",},
+    {"name": "french", "abrv": "fr", },
+    {"name": "german", "abrv": "de",},
+    {"name": "greek", "abrv": "el",},
+    {"name": "haitian", "abrv": "ht",},
+    {"name": "hebrew","abrv": "iw",},
+    {"name": "hungarian", "abrv": "hu", },
+    {"name": "icelandic", "abrv": "is", },
+    {"name": "indonesian", "abrv": "id", },
+    {"name": "irish", "abrv": "ga", },
+    {"name": "italian", "abrv": "it", },
+    {"name": "japanese", "abrv": "ja", },
+    {"name": "korean", "abrv": "ko",},
+    {"name": "kurdish", "abrv": "ku",},
+    {"name": "lao", "abrv": "lo",},
+    {"name": "latin", "abrv": "la",},
+    {"name": "malay", "abrv": "ms",},
+    {"name": "mongolian", "abrv": "mn",},
+    {"name": "nepali", "abrv": "ne",},
+    {"name":  "norwegian", "abrv": "no",},
+    {"name": "persian", "abrv": "fa",},
+    {"name":  "polish", "abrv": "pl", },
+    {"name": "portuguese", "abrv": "pt",},
+    {"name": "punjabi", "abrv": "pa",},
+    {"name": "romanian", "abrv": "ro",},
+    {"name": "russian", "abrv": "ru",},
+    {"name": "serbian", "abrv": "sr",},
+    {"name": "spanish", "abrv": "es"},
+    
+
+]
